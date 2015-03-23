@@ -13,7 +13,7 @@ import android.widget.SeekBar;
  * Date : 15-3-23
  * Description : 这个类是用来xxx
  */
-public class PictureDemo1 extends FragmentActivity implements SeekBar.OnSeekBarChangeListener {
+public class PictureDemoOne extends FragmentActivity implements SeekBar.OnSeekBarChangeListener {
 
     private ImageView mImageView;
     private SeekBar mSeekbarOne;

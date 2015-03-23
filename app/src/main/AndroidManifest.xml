@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PictureDemo1"/>
+        <activity android:name=".PictureDemoOne"/>
+        <activity android:name=".PictureDemoTwo"/>
+
     </application>
 
 </manifest>

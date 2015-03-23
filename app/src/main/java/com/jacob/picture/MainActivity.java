@@ -22,12 +22,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button_test1: {
-                Intent intent = new Intent(this, PictureDemo1.class);
+                Intent intent = new Intent(this, PictureDemoOne.class);
                 startActivity(intent);
             }
             break;
-            case R.id.button_test2:
-                break;
+            case R.id.button_test2: {
+                Intent intent = new Intent(this, PictureDemoTwo.class);
+                startActivity(intent);
+            }
+            break;
             case R.id.button_test3:
                 break;
         }

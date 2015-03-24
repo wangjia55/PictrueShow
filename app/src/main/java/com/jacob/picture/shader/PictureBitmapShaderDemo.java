@@ -1,4 +1,4 @@
-package com.jacob.picture.lesson2;
+package com.jacob.picture.shader;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -11,12 +11,12 @@ import com.jacob.picture.R;
  * Date : 15-3-24
  * Description : 这个类是用来xxx
  */
-public class PictureXfermodeDemo extends FragmentActivity {
+public class PictureBitmapShaderDemo extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_xfermode_demo);
+        setContentView(R.layout.activity_bitmap_shader_demo);
 
     }
 }

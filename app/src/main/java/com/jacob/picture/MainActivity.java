@@ -5,9 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jacob.picture.lesson2.PictureBitmapShaderDemo;
-import com.jacob.picture.lesson2.PictureMatrixDemo;
-import com.jacob.picture.lesson2.PictureXfermodeDemo;
+import com.jacob.picture.reflect.PictureReflectDemo;
+import com.jacob.picture.shader.PictureBitmapShaderDemo;
+import com.jacob.picture.xfermode.PictureXfermodeDemo;
+import com.jacob.picture.xyMatrix.PictureMatrixDemo;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -61,7 +62,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             break;
             case R.id.button_test7: {
-                Intent intent = new Intent(this, PictureXfermodeDemo.class);
+                Intent intent = new Intent(this, PictureReflectDemo.class);
                 startActivity(intent);
             }
             break;

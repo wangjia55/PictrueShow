@@ -1,4 +1,4 @@
-package com.jacob.picture.lesson2;
+package com.jacob.picture.shader;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,7 +18,7 @@ import com.jacob.picture.R;
  * Date : 15-3-24
  * Description : 这个类是用来xxx
  */
-public class BitmapShaperImageView extends ImageView {
+public class BitmapShaderImageView extends ImageView {
 
     private Bitmap mBitmap;
     private Paint mPaint;
@@ -26,15 +26,15 @@ public class BitmapShaperImageView extends ImageView {
     private int width;
     private int height;
 
-    public BitmapShaperImageView(Context context) {
+    public BitmapShaderImageView(Context context) {
         this(context, null);
     }
 
-    public BitmapShaperImageView(Context context, AttributeSet attrs) {
+    public BitmapShaderImageView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public BitmapShaperImageView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public BitmapShaderImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.s_boy);

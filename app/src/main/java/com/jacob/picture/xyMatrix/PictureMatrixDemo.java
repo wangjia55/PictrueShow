@@ -1,4 +1,4 @@
-package com.jacob.picture.lesson2;
+package com.jacob.picture.xyMatrix;
 
 import android.app.Activity;
 import android.graphics.Matrix;

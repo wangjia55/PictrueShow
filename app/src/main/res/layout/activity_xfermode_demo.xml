@@ -6,7 +6,7 @@
               android:padding="10dp"
               tools:context=".MainActivity">
 
-    <com.jacob.picture.lesson2.XfermodeImageView
+    <com.jacob.picture.xfermode.XfermodeImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </LinearLayout>

@@ -6,7 +6,7 @@
               android:padding="10dp"
               tools:context=".MainActivity">
 
-    <com.jacob.picture.lesson2.MatrixImageView
+    <com.jacob.picture.xyMatrix.MatrixImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"

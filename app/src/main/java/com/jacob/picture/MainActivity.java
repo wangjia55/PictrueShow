@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jacob.picture.lesson2.PictureMatrixDemo;
+import com.jacob.picture.lesson2.PictureXfermodeDemo;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -46,7 +47,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             break;
             case R.id.button_test5: {
-                Intent intent = new Intent(this, PictureDemoThree.class);
+                Intent intent = new Intent(this, PictureXfermodeDemo.class);
                 startActivity(intent);
             }
             break;

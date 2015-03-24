@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jacob.picture.lesson2.PictureMatrixDemo;
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
 
@@ -16,6 +18,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.button_test1).setOnClickListener(this);
         findViewById(R.id.button_test2).setOnClickListener(this);
         findViewById(R.id.button_test3).setOnClickListener(this);
+        findViewById(R.id.button_test4).setOnClickListener(this);
+        findViewById(R.id.button_test5).setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +40,17 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
             }
             break;
+            case R.id.button_test4: {
+                Intent intent = new Intent(this, PictureMatrixDemo.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.button_test5: {
+                Intent intent = new Intent(this, PictureDemoThree.class);
+                startActivity(intent);
+            }
+            break;
+
         }
     }
 }

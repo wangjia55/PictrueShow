@@ -27,6 +27,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="图像基础处理演示"/>
+        android:text="图像像素ARGB处理演示"/>
+
+    <Button
+        android:id="@+id/button_test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像坐标矩阵演示"/>
+
+    <Button
+        android:id="@+id/button_test5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像Xfermode演示"/>
+
 
 </LinearLayout>

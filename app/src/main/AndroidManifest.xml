@@ -21,6 +21,8 @@
         <activity android:name=".PictureDemoOne"/>
         <activity android:name=".PictureDemoTwo"/>
         <activity android:name=".PictureDemoThree"/>
+        <activity android:name=".lesson2.PictureMatrixDemo"/>
+
 
     </application>
 

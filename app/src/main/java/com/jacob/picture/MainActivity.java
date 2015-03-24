@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jacob.picture.lesson2.PictureBitmapShaderDemo;
 import com.jacob.picture.lesson2.PictureMatrixDemo;
 import com.jacob.picture.lesson2.PictureXfermodeDemo;
 
@@ -21,6 +22,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.button_test3).setOnClickListener(this);
         findViewById(R.id.button_test4).setOnClickListener(this);
         findViewById(R.id.button_test5).setOnClickListener(this);
+        findViewById(R.id.button_test6).setOnClickListener(this);
+        findViewById(R.id.button_test7).setOnClickListener(this);
+        findViewById(R.id.button_test8).setOnClickListener(this);
     }
 
     @Override
@@ -47,6 +51,21 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             break;
             case R.id.button_test5: {
+                Intent intent = new Intent(this, PictureXfermodeDemo.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.button_test6: {
+                Intent intent = new Intent(this, PictureBitmapShaderDemo.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.button_test7: {
+                Intent intent = new Intent(this, PictureXfermodeDemo.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.button_test8: {
                 Intent intent = new Intent(this, PictureXfermodeDemo.class);
                 startActivity(intent);
             }

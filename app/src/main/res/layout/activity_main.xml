@@ -43,5 +43,24 @@
         android:layout_margin="5dp"
         android:text="图像Xfermode演示"/>
 
+    <Button
+        android:id="@+id/button_test6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像BitmapShader演示"/>
 
+    <Button
+        android:id="@+id/button_test7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像倒影效果演示"/>
+
+    <Button
+        android:id="@+id/button_test8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像BitmapMash演示"/>
 </LinearLayout>

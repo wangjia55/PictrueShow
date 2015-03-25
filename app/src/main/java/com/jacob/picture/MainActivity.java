@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jacob.picture.bitmapmesh.BitmapMeshDemo;
 import com.jacob.picture.reflect.PictureReflectDemo;
 import com.jacob.picture.shader.PictureBitmapShaderDemo;
 import com.jacob.picture.xfermode.PictureXfermodeDemo;
@@ -67,7 +68,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             break;
             case R.id.button_test8: {
-                Intent intent = new Intent(this, PictureXfermodeDemo.class);
+                Intent intent = new Intent(this, BitmapMeshDemo.class);
                 startActivity(intent);
             }
             break;

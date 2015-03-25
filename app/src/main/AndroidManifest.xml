@@ -25,6 +25,7 @@
         <activity android:name=".xfermode.PictureXfermodeDemo"/>
         <activity android:name=".shader.PictureBitmapShaderDemo"/>
         <activity android:name=".reflect.PictureReflectDemo"/>
+        <activity android:name=".bitmapmesh.BitmapMeshDemo"/>
 
     </application>
 

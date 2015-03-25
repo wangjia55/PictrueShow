@@ -55,7 +55,7 @@ public class MashView extends View {
     }
 
     private void initView() {
-        mBitmapSrc = BitmapFactory.decodeResource(getResources(), R.drawable.ic_four);
+        mBitmapSrc = BitmapFactory.decodeResource(getResources(), R.drawable.ic_panda);
         mWidth = mBitmapSrc.getWidth();
         mHeight = mBitmapSrc.getHeight();
 

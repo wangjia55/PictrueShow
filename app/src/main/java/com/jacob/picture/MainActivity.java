@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jacob.picture.bitmapmesh.BitmapMeshDemo;
+import com.jacob.picture.bitmapmesh2.JacobMeshDemo;
 import com.jacob.picture.reflect.PictureReflectDemo;
 import com.jacob.picture.shader.PictureBitmapShaderDemo;
 import com.jacob.picture.xfermode.PictureXfermodeDemo;
@@ -27,6 +28,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.button_test6).setOnClickListener(this);
         findViewById(R.id.button_test7).setOnClickListener(this);
         findViewById(R.id.button_test8).setOnClickListener(this);
+        findViewById(R.id.button_test9).setOnClickListener(this);
     }
 
     @Override
@@ -72,7 +74,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
             }
             break;
-
+            case R.id.button_test9: {
+                Intent intent = new Intent(this, JacobMeshDemo.class);
+                startActivity(intent);
+            }
+            break;
         }
     }
 }

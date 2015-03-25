@@ -26,6 +26,7 @@
         <activity android:name=".shader.PictureBitmapShaderDemo"/>
         <activity android:name=".reflect.PictureReflectDemo"/>
         <activity android:name=".bitmapmesh.BitmapMeshDemo"/>
+        <activity android:name=".bitmapmesh2.JacobMeshDemo"/>
 
     </application>
 
